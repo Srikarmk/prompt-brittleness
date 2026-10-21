@@ -1,0 +1,1152 @@
+id,subset,model,task,item,variant,output,label
+1,random,gemma3:12b,extract,extract-1978,polite,"```json
+{
+  ""name"": ""The Mill"",
+  ""eat_type"": ""restaurant"",
+  ""food"": ""English"",
+  ""area"": ""riverside"",
+  ""near"": ""Café Rouge""
+}
+```",
+2,random,llama3.1:8b,extract,extract-3866,order2,"```
+{
+  ""name"": ""The Waterman"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Italian"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+3,random,qwen3:8b,extract,extract-4179,marker,"{
+  ""name"": ""The Wrestlers"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Japanese"",
+  ""area"": ""city centre"",
+  ""near"": ""Raja Indian Cuisine""
+}",
+4,random,llama3.1:8b,mmlu,mmlu-high_school_macroeconomics-190,order2,Answer: A,
+5,random,llama3.1:8b,gsm8k,gsm8k-0608,system,"To solve this problem, we need to follow these steps:
+
+1. Calculate the total price of the outfit before the discount.
+2. Calculate the discount amount.
+3. Calculate the total price of the outfit after the discount.
+4. Subtract the total price of the outfit from Joe's initial amount of money.
+
+Step 1: Calculate the total price of the outfit before the discount.
+The shirt costs $25 and the shorts cost $35, so the total price is $25 + $35 = $60.
+
+Step 2: Calculate the discount amount.
+The sale is 30% off, so we need to calculate 30% of the total price.
+30% of $60 is 0.3 x $60 = $18.
+
+Step 3: Calculate the total price of the outfit after the discount.
+We subtract the discount amount from the total price: $60 - $18 = $42.
+
+Step 4: Subtract the total price of the outfit from Joe's initial amount of money.
+Joe had $50, so we subtract the total price of the outfit: $50 - $42 = $8.
+
+Answer: $8",
+6,random,gemma3:12b,extract,extract-4427,aa,"```json
+{
+  ""name"": ""The Wrestlers"",
+  ""eat_type"": ""restaurant"",
+  ""food"": ""Japanese"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+7,random,qwen3:8b,mmlu,mmlu-high_school_psychology-513,outfmt,Answer: D. Punishments decrease the frequency of a behavior and negative reinforcements increase the frequency of a behavior.,
+8,random,llama3.1:8b,extract,extract-4354,aa,"```
+{
+  ""name"": ""The Wrestlers"",
+  ""eat_type"": ""restaurant"",
+  ""food"": ""Japanese"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+9,random,gemma3:12b,gsm8k,gsm8k-0106,base,"Let the dimensions of each box be length $l = 6$ inches, width $w = 5$ inches, and height $h = 4$ inches.
+The thickness of the walls is 1 inch.
+The inner dimensions of each box are:
+Inner length = $l - 2 \times \text{thickness} = 6 - 2(1) = 6 - 2 = 4$ inches
+Inner width = $w - 2 \times \text{thickness} = 5 - 2(1) = 5 - 2 = 3$ inches
+Inner height = $h - 2 \times \text{thickness} = 4 - 2(1) = 4 - 2 = 2$ inches
+The inner volume of one box is:
+Inner volume = Inner length $\times$ Inner width $\times$ Inner height = $4 \times 3 \times 2 = 24$ cubic inches.
+Since there are 3 boxes, the total inner volume of all 3 boxes is:
+Total inner volume = $3 \times \text{Inner volume of one box} = 3 \times 24 = 72$ cubic inches.
+
+Answer: 72",
+10,random,qwen3:8b,mmlu,mmlu-high_school_geography-139,order1,"Answer: D. 479 Elm Street, Muncie, Indiana",
+11,random,qwen3:8b,gsm8k,gsm8k-0054,outfmt,"Let's break the problem down step by step.
+
+1. **Initial number of kittens**:  
+   The Doubtfire sisters are driving home with **7 kittens** that they adopted.
+
+2. **Kittens from Patchy**:  
+   Patchy has had **three times** the number of adopted kittens.  
+   So, the number of kittens from Patchy is:  
+   $$
+   3 \times 7 = 21
+   $$
+
+3. **Kittens from Trixie**:  
+   Trixie has had **12 kittens**.
+
+4. **Total number of kittens**:  
+   To find the total number of kittens, we add the adopted kittens, the kittens from Patchy, and the kittens from Trixie:  
+   $$
+   7 + 21 + 12 = 40
+   $$
+
+**Answer: 40**",
+12,random,llama3.1:8b,extract,extract-1919,outfmt,"Here is the extracted JSON object:
+
+```
+{
+  ""name"": ""The Mill"",
+  ""eat_type"": ""restaurant"",
+  ""food"": ""English"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+13,random,llama3.1:8b,gsm8k,gsm8k-0849,order2,"To find out how much the farmer will earn, we need to first determine how many trays he has filled with eggs.
+
+Step 1: Divide the total number of eggs by the number of eggs each tray can hold.
+900 eggs / 30 eggs per tray = 30 trays
+
+Step 2: Since each tray is sold for $2.5, multiply the number of trays by the price per tray.
+30 trays * $2.5 per tray = $75
+
+Answer: $75",
+14,random,gemma3:12b,extract,extract-3236,syn2,"```json
+{
+  ""name"": ""The Vaults"",
+  ""eat_type"": ""pub"",
+  ""food"": ""French"",
+  ""area"": ""city centre"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+15,random,qwen3:8b,mmlu,mmlu-high_school_macroeconomics-378,system,Answer: D. A Mexican entrepreneur founds and locates a software company in St. Louis.,
+16,random,qwen3:8b,gsm8k,gsm8k-0228,order1,"We are given the following information:
+
+- Kalinda can place **4 pieces per minute**.
+- Her mom can place **half as many pieces per minute as Kalinda**, so her mom places **2 pieces per minute**.
+- Together, they are working on a **360-piece puzzle**.
+
+---
+
+### Step 1: Find their combined rate
+
+Kalinda's rate:  
+$$
+4 \text{ pieces per minute}
+$$
+
+Her mom's rate:  
+$$
+2 \text{ pieces per minute}
+$$
+
+Combined rate:  
+$$
+4 + 2 = 6 \text{ pieces per minute}
+$$
+
+---
+
+### Step 2: Find the time to complete the puzzle
+
+We want to find how many **minutes** it will take to complete 360 pieces at a rate of 6 pieces per minute:
+
+$$
+\text{Time (in minutes)} = \frac{360 \text{ pieces}}{6 \text{ pieces per minute}} = 60 \text{ minutes}
+$$
+
+---
+
+### Step 3: Convert minutes to hours
+
+$$
+60 \text{ minutes} = 1 \text{ hour}
+$$
+
+---
+
+### Final Answer:
+
+$$
+\boxed{1}
+$$",
+17,random,qwen3:8b,extract,extract-3320,base,"{
+  ""name"": ""The Vaults"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Italian"",
+  ""area"": ""city centre"",
+  ""near"": ""Rainbow Vegetarian Café""
+}",
+18,random,llama3.1:8b,extract,extract-1588,order2,"```
+{
+  ""name"": ""The Mill"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Fast food"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}
+```",
+19,random,qwen3:8b,extract,extract-1588,aa,"{
+  ""name"": ""The Mill"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Fast food"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}",
+20,random,gemma3:12b,mmlu,mmlu-high_school_biology-290,order1,Answer: D,
+21,random,llama3.1:8b,gsm8k,gsm8k-0259,polite,"Let's break down the problem step by step:
+
+1. Andrea has 8 more apples than Jamal, and Andrea has 52 apples. Let's call the number of apples Jamal has ""x"". Then, we can set up the equation:
+
+52 = x + 8
+
+Subtracting 8 from both sides gives us:
+
+44 = x
+
+So, Jamal has 44 apples.
+
+2. Jamal has 4 more bananas than apples. Since Jamal has 44 apples, he must have 44 + 4 = 48 bananas.
+
+3. Andrea has half as many bananas as Jamal. Since Jamal has 48 bananas, Andrea must have 48 / 2 = 24 bananas.
+
+4. Now, let's count the total number of fruits. Andrea has 52 apples and 24 bananas, and Jamal has 44 apples and 48 bananas. To find the total number of fruits, we add the number of fruits each person has:
+
+Andrea's fruits: 52 (apples) + 24 (bananas) = 76
+Jamal's fruits: 44 (apples) + 48 (bananas) = 92
+
+Total number of fruits: 76 + 92 = 168
+
+Answer: 168",
+22,random,qwen3:8b,gsm8k,gsm8k-0255,bullets,"We are given the following information:
+
+- There are **10 stalls**, each with **20 cows**.
+- Mr. Sylas buys **40 cows** and **divides them equally** among **20 stalls**.
+- We are to find how many cows are in **8 of the stalls**.
+
+---
+
+### Step 1: Calculate the initial number of cows
+
+Each of the 10 stalls has 20 cows:
+
+$$
+10 \text{ stalls} \times 20 \text{ cows per stall} = 200 \text{ cows}
+$$
+
+---
+
+### Step 2: Determine how many cows are added to each stall
+
+Mr. Sylas buys 40 cows and divides them equally among **20 stalls**:
+
+$$
+\frac{40 \text{ cows}}{20 \text{ stalls}} = 2 \text{ cows per stall}
+$$
+
+So, **each stall gets 2 additional cows**.
+
+---
+
+### Step 3: Find the total number of cows in each stall after the addition
+
+Each stall originally had 20 cows, and now has 2 more:
+
+$$
+20 + 2 = 22 \text{ cows per stall}
+$$
+
+---
+
+### Step 4: Find the total number of cows in 8 stalls
+
+$$
+8 \text{ stalls} \times 22 \text{ cows per stall} = 176 \text{ cows}
+$$
+
+---
+
+### Final Answer:
+
+Answer: 176",
+23,random,llama3.1:8b,mmlu,mmlu-high_school_psychology-439,shuf_rev,Answer: D,
+24,random,llama3.1:8b,extract,extract-2336,syn2,"```
+{
+  ""name"": ""The Phoenix"",
+  ""eat_type"": ""pub"",
+  ""food"": ""French"",
+  ""area"": ""riverside"",
+  ""near"": ""Crowne Plaza Hotel""
+}
+```",
+25,random,gemma3:12b,gsm8k,gsm8k-0510,typo,"Here's how we can solve this problem step-by-step:
+
+1. **Calculate the number of days:**
+   * December has 31 days, but since today is December 31st, there are 0 days left in December.
+   * January has 31 days.
+   * February has 28 days (assuming it's not a leap year).
+   * March has 31 days.
+   * April has 30 days.
+   * May has 31 days.
+   * June has 30 days.
+   * July has 19 days.
+   * Total days = 0 + 31 + 28 + 31 + 30 + 31 + 30 + 19 = 200 days
+
+2. **Calculate the total calories needed to burn:**
+   * Andy wants to lose 30 lbs.
+   * Each pound requires 3500 calories to burn.
+   * Total calories = 30 lbs * 3500 calories/lb = 105000 calories
+
+3. **Calculate the daily calorie deficit:**
+   * Total calories to burn = 105000 calories
+   * Number of days = 200 days
+   * Daily calorie deficit = 105000 calories / 200 days = 525 calories/day
+
+Answer: 525",
+26,random,llama3.1:8b,gsm8k,gsm8k-0355,order1,"To solve this problem, we need to follow the steps below:
+
+Step 1: Find the height of the second tree.
+The second tree has a height of 5 feet more than the shortest tree, which is 6 feet. So, the height of the second tree is 6 + 5 = 11 feet.
+
+Step 2: Find the combined height of the two trees.
+The combined height of the two trees is the sum of their heights, which is 6 + 11 = 17 feet.
+
+Step 3: Find the height of the tallest tree.
+The height of the tallest tree is twice the combined height of the two trees, which is 2 x 17 = 34 feet.
+
+Answer: 34",
+27,random,llama3.1:8b,gsm8k,gsm8k-0608,order2,"Let's break down the problem step by step:
+
+1. Joe has $50 to spend on the outfit.
+2. There is a 30% off sale at the clothing store. To find the discount, we need to calculate 30% of the total price of the outfit. However, we don't know the total price yet, so we'll come back to this step later.
+3. The shirt Joe picks out costs $25.
+4. The pair of shorts Joe picks out costs $35.
+5. To find the total price of the outfit, we need to add the price of the shirt and the price of the shorts: $25 + $35 = $60.
+6. Now we can calculate the discount: 30% of $60 is 0.3 x $60 = $18.
+7. To find the price of the outfit after the discount, we subtract the discount from the total price: $60 - $18 = $42.
+8. Since sales tax is included, the price of $42 is the final price Joe will pay.
+9. To find out how much money Joe will have left after the purchase, we subtract the final price from the amount he had initially: $50 - $42 = $8.
+
+Answer: $8",
+28,random,qwen3:8b,mmlu,mmlu-high_school_macroeconomics-102,system,Answer: B. the leftward shift in AD in response to the rising interest rates from expansionary fiscal policy.,
+29,random,qwen3:8b,mmlu,mmlu-high_school_biology-290,shuf_rev,Answer: A. plasmolysis.,
+30,random,gemma3:12b,extract,extract-3320,base,"```json
+{
+  ""name"": ""The Vaults"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Italian"",
+  ""area"": ""city centre"",
+  ""near"": ""Rainbow Vegetarian Café""
+}
+```",
+31,random,qwen3:8b,extract,extract-1531,order1,"{
+  ""name"": ""The Mill'"",
+  ""eat_type"": ""pub"",
+  ""food"": ""English"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}",
+32,random,gemma3:12b,extract,extract-1698,system,"```json
+{
+  ""name"": ""The Mill"",
+  ""eat_type"": ""pub"",
+  ""food"": ""fast food"",
+  ""area"": ""riverside"",
+  ""near"": ""Café Sicilia""
+}
+```",
+33,random,qwen3:8b,mmlu,mmlu-high_school_psychology-241,shuf_rev,Answer: A,
+34,random,qwen3:8b,gsm8k,gsm8k-0608,typo,"Let's solve the problem step by step.
+
+---
+
+### **Step 1: Determine the total original price of the items**
+
+Joe buys:
+- A shirt for **$25**
+- A pair of shorts for **$35**
+
+So, the total original price is:
+
+$$
+25 + 35 = 60
+$$
+
+---
+
+### **Step 2: Apply the 30% discount**
+
+The store is having a **30% off** sale. That means Joe pays **70%** of the original price.
+
+$$
+\text{Discounted price} = 60 \times (1 - 0.30) = 60 \times 0.70 = 42
+$$
+
+---
+
+### **Step 3: Add sales tax**
+
+The problem says to assume **sales tax is included**. However, it does **not specify the tax rate**. Since the problem does not give a tax rate, we will assume that the **discounted price already includes tax**, or that **no additional tax is applied**.
+
+So, we will **not add any additional tax**.
+
+---
+
+### **Step 4: Calculate how much money Joe has left**
+
+Joe starts with **$50**.
+
+He spends **$42** on the outfit.
+
+$$
+\text{Money left} = 50 - 42 = 8
+$$
+
+---
+
+### **Final Answer:**
+
+Answer: 8",
+35,random,llama3.1:8b,gsm8k,gsm8k-1021,syn2,"To solve this problem, let's break it down step by step.
+
+1. First, we need to find out how many questions are easy, average, and difficult. Since 40% of the questions are easy, we can calculate this as follows:
+   40% of 60 = 0.4 x 60 = 24 easy questions
+
+   Since the rest are equally divided as average and difficult, we can calculate this as follows:
+   60 - 24 = 36 questions left
+   36 / 2 = 18 average questions and 18 difficult questions
+
+2. Next, we need to find out how many points Aries is sure to get from the easy questions. Since she is sure to get 75% of the easy questions, we can calculate this as follows:
+   75% of 24 = 0.75 x 24 = 18 easy questions correct
+
+3. Then, we need to find out how many points Aries is sure to get from the average and difficult questions. Since she is sure to get half of these questions correctly, we can calculate this as follows:
+   Half of 18 average questions = 18 / 2 = 9 average questions correct
+   Half of 18 difficult questions = 18 / 2 = 9 difficult questions correct
+
+4. Finally, we need to add up the points Aries is sure to get from all the questions:
+   18 easy questions correct + 9 average questions correct + 9 difficult questions correct = 36 points
+
+Answer: 36",
+36,random,qwen3:8b,extract,extract-4193,order2,"{
+  ""name"": ""The Wrestlers"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Japanese"",
+  ""area"": ""riverside"",
+  ""near"": ""Raja Indian Cuisine""
+}",
+37,random,qwen3:8b,extract,extract-4179,polite,"{
+  ""name"": ""The Wrestlers"",
+  ""eat_type"": ""pub"",
+  ""food"": ""Japanese"",
+  ""area"": ""city centre"",
+  ""near"": ""Raja Indian Cuisine""
+}",
+38,random,llama3.1:8b,gsm8k,gsm8k-0228,order2,"Let's break down the problem step by step:
+
+1. Kalinda can add 4 pieces per minute.
+2. Her mom can typically place half as many pieces per minute as Kalinda, so her mom can add 4/2 = 2 pieces per minute.
+3. Together, they can add 4 + 2 = 6 pieces per minute.
+4. To find out how many minutes it will take them to complete the puzzle, we need to divide the total number of pieces (360) by the number of pieces they can add per minute (6).
+5. 360 ÷ 6 = 60 minutes
+6. Since there are 60 minutes in 1 hour, we need to convert the time from minutes to hours.
+7. 60 minutes ÷ 60 = 1 hour
+
+Answer: 1",
+39,random,gemma3:12b,mmlu,mmlu-high_school_biology-250,order2,Answer: C,
+40,random,llama3.1:8b,mmlu,mmlu-high_school_macroeconomics-370,aa,Answer: B,
+41,random,llama3.1:8b,mmlu,mmlu-high_school_psychology-047,syn2,Answer: A,
+42,random,gemma3:12b,mmlu,mmlu-high_school_biology-006,system,Answer: B,
+43,random,llama3.1:8b,gsm8k,gsm8k-0608,polite,"Let's break down the problem step by step:
+
+1. Joe has $50 to spend on the outfit.
+2. There is a 30% off sale at the clothing store. To find the discount amount, we need to calculate 30% of the total price of the outfit (shirt and shorts).
+3. First, let's find the total price of the outfit: $25 (shirt) + $35 (shorts) = $60.
+4. Now, let's calculate 30% of $60: 0.30 x $60 = $18.
+5. The discount amount is $18, so the sale price of the outfit will be: $60 - $18 = $42.
+6. Since sales tax is included, we don't need to add any additional tax to the sale price.
+7. Joe will spend $42 on the outfit, leaving him with: $50 - $42 = $8.
+
+Answer: $8",
+44,random,gemma3:12b,mmlu,mmlu-high_school_biology-094,syn1,Answer: B,
+45,random,llama3.1:8b,gsm8k,gsm8k-0397,base,"Let's break down the problem step by step:
+
+1. Mark has $50 in his bank account.
+2. He earns $10 per day at his work.
+3. He wants to buy a bike that costs $300.
+4. To find out how many days Mark needs to save his money, we need to calculate how much more money he needs to earn to reach his goal of $300.
+5. Since Mark already has $50, we subtract this from the total amount he needs: $300 - $50 = $250.
+6. Now, we need to divide the amount Mark needs to earn ($250) by his daily earnings ($10) to find out how many days he needs to work: $250 ÷ $10 = 25 days.
+
+Answer: 25",
+46,random,qwen3:8b,gsm8k,gsm8k-1021,order2,"We are given a 60-item quiz with the following distribution:
+
+- **40%** of the questions are **easy**.
+- The **remaining 60%** are **equally divided** between **average** and **difficult**.
+
+---
+
+### Step 1: Determine the number of each type of question
+
+- **Easy questions**:  
+  $ 40\% \times 60 = 0.4 \times 60 = 24 $ questions
+
+- **Remaining questions**:  
+  $ 60 - 24 = 36 $ questions
+
+- These 36 questions are **equally divided** between **average** and **difficult**, so:  
+  $ \frac{36}{2} = 18 $ **average** questions  
+  $ \frac{36}{2} = 18 $ **difficult** questions
+
+---
+
+### Step 2: Determine how many questions Aries is sure to get correct
+
+- **Easy questions**:  
+  Aries is sure to get **75%** of the easy questions correct:  
+  $ 0.75 \times 24 = 18 $ correct
+
+- **Average questions**:  
+  Aries is sure to get **half** of the average questions correct:  
+  $ \frac{1}{2} \times 18 = 9 $ correct
+
+- **Difficult questions**:  
+  Aries is sure to get **half** of the difficult questions correct:  
+  $ \frac{1}{2} \times 18 = 9 $ correct
+
+---
+
+### Step 3: Add up the correct answers
+
+$$
+18 \text{ (easy)} + 9 \text{ (average)} + 9 \text{ (difficult)} = 36
+$$
+
+---
+
+### Final Answer:
+
+Answer: 36",
+47,random,gemma3:12b,mmlu,mmlu-high_school_psychology-299,polite,Answer: C,
+48,random,gemma3:12b,mmlu,mmlu-high_school_psychology-341,polite,Answer: B,
+49,random,llama3.1:8b,gsm8k,gsm8k-0729,order2,"Let's break down the problem step by step:
+
+1. At 8:00, 5000 people lined up to vote.
+2. By midday (12:00), 2/5 of the people had voted. To find the number of people who voted by midday, we multiply 5000 by 2/5:
+   5000 × 2/5 = 2000 people voted by midday.
+3. The remaining people who had not voted by midday are:
+   5000 - 2000 = 3000 people.
+4. By 16:00, 2/3 of the remaining people had voted. To find the number of people who voted by 16:00, we multiply 3000 by 2/3:
+   3000 × 2/3 = 2000 people voted by 16:00.
+5. The number of people who had not voted by 16:00 is the remaining people who had not voted by midday minus the people who voted by 16:00:
+   3000 - 2000 = 1000 people.
+
+Answer: 1000",
+50,random,llama3.1:8b,mmlu,mmlu-high_school_macroeconomics-332,order1,Answer: A,
+51,fallback rule,qwen3:8b,gsm8k,gsm8k-0255,syn1,"Let's solve the problem step by step.
+
+---
+
+### **Step 1: Initial number of cows**
+
+There are **10 stalls**, and each stall has **20 cows**.
+
+$$
+\text{Total cows initially} = 10 \times 20 = 200 \text{ cows}
+$$
+
+---
+
+### **Step 2: Mr. Sylas buys 40 cows**
+
+He buys **40 cows** and **divides them equally** among **20 stalls**.
+
+$$
+\text{Cows per stall from Mr. Sylas} = \frac{40}{20} = 2 \text{ cows per stall}
+$$
+
+---
+
+### **Step 3: Total cows in each stall now**
+
+Each stall originally had **20 cows**, and now **2 more cows** are added.
+
+$$
+\text{Total cows per stall} = 20 + 2 = 22 \text{ cows}
+$$
+
+---
+
+### **Step 4: Total cows in 8 stalls**
+
+Now, we calculate the total number of cows in **8 stalls**:
+
+$$
+\text{Total cows in 8 stalls} = 8 \times 22 = 176
+$$
+
+---
+
+### **Final Answer:**
+
+$$
+\boxed{176}
+$$",
+52,fallback rule,qwen3:8b,mmlu,mmlu-high_school_geography-048,marker,D: D,
+53,fallback rule,llama3.1:8b,mmlu,mmlu-high_school_psychology-100,marker,D: exhaustion,
+54,fallback rule,qwen3:8b,gsm8k,gsm8k-0355,polite,"Let's solve the problem step by step.
+
+---
+
+### Step 1: Determine the height of the shortest tree  
+We are told:
+
+> The shortest tree has a height of **6 feet**.
+
+So,  
+**Shortest tree = 6 feet**
+
+---
+
+### Step 2: Determine the height of the second tree  
+We are told:
+
+> The second tree has a height of **5 feet more than the shortest tree**.
+
+So,  
+**Second tree = 6 feet + 5 feet = 11 feet**
+
+---
+
+### Step 3: Determine the height of the tallest tree  
+We are told:
+
+> The height of the tallest tree is **twice the height of the two trees combined**.
+
+First, find the **combined height** of the shortest and second trees:
+
+$$
+6 \text{ feet} + 11 \text{ feet} = 17 \text{ feet}
+$$
+
+Now, the tallest tree is **twice** that:
+
+$$
+2 \times 17 \text{ feet} = 34 \text{ feet}
+$$
+
+---
+
+### Final Answer:
+$$
+\boxed{34}
+$$",
+55,fallback rule,qwen3:8b,gsm8k,gsm8k-1305,aa,"We are given the total number of cookies made by the Adams family and the number of rainbow and oatmeal cookies. We are asked to find the number of chocolate chip cookies.
+
+---
+
+### Step 1: Write down the total number of cookies
+$$
+\text{Total cookies} = 7995
+$$
+
+---
+
+### Step 2: Write down the number of rainbow and oatmeal cookies
+$$
+\text{Rainbow cookies} = 2595 \\
+\text{Oatmeal cookies} = 3075
+$$
+
+---
+
+### Step 3: Add the number of rainbow and oatmeal cookies
+$$
+2595 + 3075 = 5670
+$$
+
+---
+
+### Step 4: Subtract the sum of rainbow and oatmeal cookies from the total to find the number of chocolate chip cookies
+$$
+\text{Chocolate chip cookies} = 7995 - 5670 = 2325
+$$
+
+---
+
+### Final Answer:
+$$
+\boxed{2325}
+$$",
+56,fallback rule,llama3.1:8b,mmlu,mmlu-high_school_psychology-091,marker,B: long-term potentiation,
+57,fallback rule,qwen3:8b,gsm8k,gsm8k-1056,system,"Let's break the problem down step by step.
+
+---
+
+### **Step 1: Determine how many loads of laundry Greg does per week**
+
+Greg has to do laundry for:
+- **4 twin beds**  
+- **1 king bed**
+
+#### **Twin beds:**
+- He can wash **2 twin sets** at a time.
+- He has **4 twin sets** to wash.
+- So, the number of loads for twin beds is:
+  $$
+  \frac{4}{2} = 2 \text{ loads}
+  $$
+
+#### **King bed:**
+- He can wash **1 king set** at a time.
+- He has **1 king set** to wash.
+- So, the number of loads for the king bed is:
+  $$
+  \frac{1}{1} = 1 \text{ load}
+  $$
+
+#### **Total loads per week:**
+$$
+2 \text{ (twin)} + 1 \text{ (king)} = 3 \text{ loads per week}
+$$
+
+---
+
+### **Step 2: Calculate the number of loads per year**
+
+There are **52 weeks** in a year.
+
+$$
+3 \text{ loads/week} \times 52 \text{ weeks/year} = 156 \text{ loads/year}
+$$
+
+---
+
+### **Final Answer:**
+$$
+\boxed{156}
+$$",
+58,fallback rule,qwen3:8b,gsm8k,gsm8k-1248,order1,"We are given the following information:
+
+- Jason needs to **sell 15 cars** to earn a bonus.
+- For **every 25 telephone calls**, he gets **1 customer** to come into the dealership.
+- For **every 2 customers** that come in, **1 buys a car**.
+
+---
+
+### Step 1: Determine how many customers are needed to sell 15 cars
+
+Since **1 out of every 2 customers** buys a car, we can write:
+
+$$
+\text{Number of customers needed} = 15 \times 2 = 30
+$$
+
+So, Jason needs **30 customers** to come into the dealership to sell 15 cars.
+
+---
+
+### Step 2: Determine how many telephone calls are needed to get 30 customers
+
+Since **1 customer comes in for every 25 calls**, we can write:
+
+$$
+\text{Number of calls needed} = 30 \times 25 = 750
+$$
+
+---
+
+### Final Answer:
+
+$$
+\boxed{750}
+$$",
+59,fallback rule,qwen3:8b,gsm8k,gsm8k-0597,marker,"We are given a triangle with three angles that add up to 18 **degrees**. One angle is **twice** the smallest angle, and another angle is **three times** the smallest angle. We are to find the measure of the **largest angle**.
+
+---
+
+### Step 1: Let the smallest angle be $ x $ degrees.
+
+Then:
+- One angle is $ 2x $ (twice the smallest angle),
+- Another angle is $ 3x $ (three times the smallest angle).
+
+---
+
+### Step 2: Use the triangle angle sum property.
+
+The sum of the angles in a triangle is always:
+
+$$
+x + 2x + 3x = 180
+$$
+
+$$
+6x = 180
+$$
+
+$$
+x = 30
+$$
+
+---
+
+### Step 3: Find the measures of all three angles.
+
+- Smallest angle: $ x = 30^\circ $
+- Second angle: $ 2x = 60^\circ $
+- Largest angle: $ 3x = 90^\circ $
+
+---
+
+### Final Answer:
+
+$$
+\boxed{A: 90}
+$$",
+60,fallback rule,gemma3:12b,mmlu,mmlu-high_school_geography-144,marker,B: B,
+61,fallback rule,qwen3:8b,gsm8k,gsm8k-0100,typo,"Let's solve the problem step by step.
+
+---
+
+### Step 1: Understand the information given
+
+We are told about the number of times the doorbell was pressed by four friends:
+
+- **First friend**: Pressed the doorbell **20 times**.
+- **Second friend**: Pressed the doorbell **1/4 times more** than the first friend.
+- **Third friend**: Pressed the doorbell **10 times more** than the fourth friend.
+- **Fourth friend**: Pressed the doorbell **60 times**.
+
+We are to find the **total number of doorbell rings**.
+
+---
+
+### Step 2: Calculate the number of rings for each friend
+
+#### First friend:
+$$
+\text{First friend} = 20 \text{ rings}
+$$
+
+#### Second friend:
+The second friend pressed **1/4 times more** than the first friend.
+
+This means:
+$$
+\text{Second friend} = 20 + \frac{1}{4} \times 20 = 20 + 5 = 25 \text{ rings}
+$$
+
+#### Fourth friend:
+$$
+\text{Fourth friend} = 60 \text{ rings}
+$$
+
+#### Third friend:
+The third friend pressed **10 times more** than the fourth friend.
+
+So:
+$$
+\text{Third friend} = 60 + 10 \times 60 = 60 + 600 = 660 \text{ rings}
+$$
+
+---
+
+### Step 3: Add up all the rings
+
+$$
+\text{Total rings} = 20 + 25 + 660 + 60 = 765
+$$
+
+---
+
+### Final Answer:
+$$
+\boxed{765}
+$$",
+62,fallback rule,qwen3:8b,gsm8k,gsm8k-1021,typo,"Let's solve the problem step by step.
+
+---
+
+### **Step 1: Determine the number of each type of question**
+
+- Total number of questions = 60  
+- 40% of the questions are **easy**:
+
+$$
+\text{Easy questions} = 0.40 \times 60 = 24
+$$
+
+- The remaining questions are **average** and **difficult**, and they are **equally divided**:
+
+$$
+\text{Remaining questions} = 60 - 24 = 36
+$$
+
+$$
+\text{Average questions} = \frac{36}{2} = 18
+$$
+$$
+\text{Difficult questions} = \frac{36}{2} = 18
+$$
+
+---
+
+### **Step 2: Determine how many questions Aries is sure to get correct**
+
+- Aries is **sure to get 75% of the easy questions**:
+
+$$
+\text{Correct easy questions} = 0.75 \times 24 = 18
+$$
+
+- Aries is **sure to get half of the average and difficult questions**:
+
+$$
+\text{Correct average questions} = 0.5 \times 18 = 9
+$$
+$$
+\text{Correct difficult questions} = 0.5 \times 18 = 9
+$$
+
+---
+
+### **Step 3: Add up the correct answers**
+
+$$
+\text{Total correct} = 18 + 9 + 9 = 36
+$$
+
+---
+
+### **Final Answer:**
+
+$$
+\boxed{36}
+$$",
+63,fallback rule,qwen3:8b,mmlu,mmlu-high_school_macroeconomics-311,marker,D. II and III are true.,
+64,fallback rule,qwen3:8b,mmlu,mmlu-high_school_macroeconomics-083,marker,D: D,
+65,fallback rule,qwen3:8b,gsm8k,gsm8k-0259,system,"We are given the following information:
+
+1. **Andrea has 8 more apples than Jamal.**
+2. **Andrea has half as many bananas as Jamal.**
+3. **Jamal has 4 more bananas than apples.**
+4. **Andrea has 52 apples.**
+
+We are to find the **total number of fruits** (apples + bananas) that Andrea and Jamal have together.
+
+---
+
+### Step 1: Use the information about Andrea's apples
+
+We are told:
+
+> Andrea has 52 apples.
+
+From the first statement:
+
+> Andrea has 8 more apples than Jamal.
+
+So, if Andrea has 52 apples, then Jamal has:
+
+$$
+\text{Jamal's apples} = 52 - 8 = 44
+$$
+
+---
+
+### Step 2: Use the information about Jamal's bananas
+
+We are told:
+
+> Jamal has 4 more bananas than apples.
+
+So, Jamal's bananas are:
+
+$$
+\text{Jamal's bananas} = 44 + 4 = 48
+$$
+
+---
+
+### Step 3: Use the information about Andrea's bananas
+
+We are told:
+
+> Andrea has half as many bananas as Jamal.
+
+So, Andrea's bananas are:
+
+$$
+\text{Andrea's bananas} = \frac{1}{2} \times 48 = 24
+$$
+
+---
+
+### Step 4: Add up all the fruits
+
+Now, we add up all the apples and bananas:
+
+- Andrea's apples: 52  
+- Jamal's apples: 44  
+- Andrea's bananas: 24  
+- Jamal's bananas: 48  
+
+$$
+\text{Total fruits} = 52 + 44 + 24 + 48 = 168
+$$
+
+---
+
+### Final Answer:
+
+$$
+\boxed{168}
+$$",
+66,fallback rule,qwen3:8b,gsm8k,gsm8k-0397,polite,"Let's solve the problem step by step.
+
+---
+
+### **Step 1: Understand the initial amount**
+Mark already has **$50** in his bank account.
+
+---
+
+### **Step 2: Determine how much more money is needed**
+The bike costs **$300**.
+
+So, the amount Mark still needs is:
+
+$$
+300 - 50 = 250
+$$
+
+---
+
+### **Step 3: Determine how much Mark earns per day**
+Mark earns **$10 per day** at his job.
+
+---
+
+### **Step 4: Calculate how many days it will take to save the remaining amount**
+To find out how many days it will take Mark to save **$250** at a rate of **$10 per day**, we divide:
+
+$$
+\frac{250}{10} = 25
+$$
+
+---
+
+### **Final Answer:**
+$$
+\boxed{25}
+$$",
+67,fallback rule,qwen3:8b,gsm8k,gsm8k-0729,order2,"We are given that 5000 people lined up at a polling station at 8:00. We are to find how many people had **not voted by 16:00**.
+
+---
+
+### Step 1: Total number of people
+$$
+\text{Total people} = 5000
+$$
+
+---
+
+### Step 2: Number of people who voted by midday
+$$
+\frac{2}{5} \text{ of } 5000 = \frac{2}{5} \times 5000 = 2000
+$$
+
+So, **2000 people voted by midday**.
+
+---
+
+### Step 3: Number of people remaining after midday
+$$
+5000 - 2000 = 3000
+$$
+
+---
+
+### Step 4: Number of people who voted between midday and 16:00
+$$
+\frac{2}{3} \text{ of } 3000 = \frac{2}{3} \times 3000 = 2000
+$$
+
+So, **2000 more people voted between midday and 16:00**.
+
+---
+
+### Step 5: Total number of people who voted by 16:00
+$$
+2000 \text{ (by midday)} + 2000 \text{ (by 16:00)} = 4000
+$$
+
+---
+
+### Step 6: Number of people who had **not voted by 16:00**
+$$
+5000 - 4000 = 1000
+$$
+
+---
+
+### Final Answer:
+$$
+\boxed{1000}
+$$",
+68,fallback rule,qwen3:8b,mmlu,mmlu-high_school_psychology-264,marker,D: D,
+69,fallback rule,qwen3:8b,gsm8k,gsm8k-0519,syn1,"Let's solve the problem step by step.
+
+---
+
+### Step 1: Understand the given information
+
+- **Rob takes 2 hours** to shingle a house.
+- **Royce takes 40 minutes more than double Rob's time.**
+
+We need to find how many **minutes** Royce takes.
+
+---
+
+### Step 2: Convert Rob's time to minutes
+
+Rob takes **2 hours**, and since 1 hour = 60 minutes:
+
+$$
+2 \text{ hours} = 2 \times 60 = 120 \text{ minutes}
+$$
+
+---
+
+### Step 3: Calculate double Rob's time
+
+$$
+2 \times 120 = 240 \text{ minutes}
+$$
+
+---
+
+### Step 4: Add 40 minutes to double Rob's time
+
+$$
+240 + 40 = 280 \text{ minutes}
+$$
+
+---
+
+### Final Answer:
+
+$$
+\boxed{280}
+$$",
+70,fallback rule,llama3.1:8b,mmlu,mmlu-high_school_biology-264,marker,B: It reoxidizes NADH so that glycolysis can continue.,

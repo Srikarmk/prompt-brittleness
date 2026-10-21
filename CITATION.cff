@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Prompt Brittleness: how often do harmless rephrasings change LLM answers?"
+abstract: "A measurement study of prompt sensitivity: 300 items from GSM8K, MMLU and E2E extraction, rephrased one change at a time, with open models, an A/A noise floor and a held-out test of the best-scoring prompt."
+authors:
+  - family-names: Manda
+    given-names: Kameswara Sai Srikar
+date-released: "2026-10-20"
+url: "https://www.srikarmk.dev/projects/prompt-brittleness"
+repository-code: "https://github.com/Srikarmk/prompt-brittleness"
+license: MIT
+keywords: [llm, prompt sensitivity, evaluation, robustness, winner's curse]

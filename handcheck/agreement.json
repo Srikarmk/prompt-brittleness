@@ -1,0 +1,30 @@
+{
+ "n": 70,
+ "agree": 70,
+ "by_subset": {
+  "random": {
+   "n": 50,
+   "agree": 50
+  },
+  "fallback rule": {
+   "n": 20,
+   "agree": 20
+  }
+ },
+ "by_task": {
+  "gsm8k": {
+   "n": 17,
+   "agree": 17
+  },
+  "mmlu": {
+   "n": 17,
+   "agree": 17
+  },
+  "extract": {
+   "n": 16,
+   "agree": 16
+  }
+ },
+ "disagreements": [],
+ "summary": "A single labelling pass, with no second labeller, read each sampled output without seeing the parser's answer and wrote down the answer the output commits to (`none` if it commits to none). Agreement with the parser: random: 50/50; fallback rule: 20/20 (random sample by task: gsm8k 17/17, mmlu 17/17, extract 16/16). No disagreements."
+}
