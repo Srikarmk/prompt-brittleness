@@ -128,3 +128,13 @@ which a call took minutes. It was stopped with 6 MMLU items complete under every
 results, and prediction 8, rest on those 6 items and are exploratory. Final grid: MMLU 100, E2E 50, GSM8K
 30 for `qwen3:8b` and `llama3.1:8b`; MMLU 100, E2E 50, GSM8K 20 for `gemma3:12b`; MMLU 6 for
 `qwen3:30b-a3b`.
+
+**2026-10-29, 16:45 EDT (after the full grid finished).** The full grid in "Run settings" was completed
+from 2026-10-28 21:40 to 2026-10-29 16:38 on mains power: 100 items per task for `qwen3:8b`,
+`llama3.1:8b` and `gemma3:12b`, and the 100 MMLU items for `qwen3:30b-a3b`, the same seeded items as
+before, with the first run's calls reused from the cache. Nothing above was edited between the runs, but
+the first run's results (180 of these items for the 8B models) had been read and published by then, so
+predictions 1 to 7 and 9 are scored on a grid that overlaps what had been seen. Prediction 8 had only 6
+items before and is the one scored on data unseen when the predictions were written. The report now
+scores every prediction on the full grid.
+
